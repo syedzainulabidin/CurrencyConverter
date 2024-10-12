@@ -28,9 +28,6 @@ const iconChange = (element) => {
       `https://flagsapi.com/${countryList[element.value]}/flat/64.png`
     );
 };
-const run = () => {
-  getCurrency();
-};
 let url = "https://economia.awesomeapi.com.br/json/last";
 let getCurrency = async () => {
   try {
